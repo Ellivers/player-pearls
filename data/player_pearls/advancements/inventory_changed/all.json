@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "inv": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+
+    "rewards": {
+        "function": "player_pearls:inventory_changed"
+    }
+}

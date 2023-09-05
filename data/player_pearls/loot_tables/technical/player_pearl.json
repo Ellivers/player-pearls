@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "player_pearls:pearl_basics"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Connected to the soul of ",
+                                        "color": "#00ffaa",
+                                        "italic": false
+                                    },
+                                    {
+                                        "selector": "@a[advancements={player_pearls:entity_hurt_player=true},limit=1]",
+                                        "color": "#f5426c"
+                                    }
+                                ]
+                            ],
+                            "replace": true,
+                            "entity": "this"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "player_pearls:storage"
+                            },
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "root.temp.uuid",
+                                    "target": "player_pearls.uuid"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

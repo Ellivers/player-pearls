@@ -1,0 +1,24 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name": {
+            "text": "Prepared Player Pearl",
+            "color": "#8e3dff",
+            "italic": false
+        }
+    },
+    {
+        "function": "minecraft:set_lore",
+        "lore": [
+            {
+                "text": "Hit your target player while holding 16 of these.",
+                "color": "#09ba7f"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{Enchantments:[{}],player_pearls:{prepared:1b}}"
+    }
+]

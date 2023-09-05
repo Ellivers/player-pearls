@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "Teleport whoever you want!",
+
+        "supported_formats": {
+            "min_inclusive": 15,
+            "max_inclusive": 17
+        }
+    }
+}

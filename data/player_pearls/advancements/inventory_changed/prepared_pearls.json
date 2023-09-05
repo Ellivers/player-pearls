@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ender_pearl"
+                        ],
+                        "nbt": "{display:{Name:'{\"text\":\"player pearl\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+
+    "rewards": {
+        "function": "player_pearls:set_prepared"
+    }
+}

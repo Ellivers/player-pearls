@@ -1,0 +1,10 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name": [{"text":"P","color":"#ae01b4","italic": false},{"text":"l","color":"#af00ad"},{"text":"a","color":"#b100a6"},{"text":"y","color":"#b200a0"},{"text":"e","color":"#b40099"},{"text":"r ","color":"#b60093"},{"text":"P","color":"#b7008c"},{"text":"e","color":"#b90085"},{"text":"a","color":"#ba007f"},{"text":"r","color":"#bc0078"},{"text":"l","color":"#be0072"}]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{Enchantments:[{}],player_pearls:{done:1b}}"
+    }
+]

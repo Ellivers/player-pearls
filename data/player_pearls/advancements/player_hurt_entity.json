@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:ender_pearl"
+                            ],
+                            "nbt": "{player_pearls:{prepared:1b}}",
+                            "count": 16
+                        }
+                    }
+                }
+            }
+        }
+    },
+
+    "rewards": {
+        "function": "player_pearls:hit"
+    }
+}
